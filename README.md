@@ -22,3 +22,7 @@ This npm script crawls through a JSON sitemap of URLs (`config/sitemap.json`), r
 ## Results
 
 The results will be saved in `results/<unique-filename>.csv`. The program will output the unique file name when the execution finishes.
+
+## Node Version
+
+This software was tested on Node.js `v18.17.1` and NPM `v10.0.0`
