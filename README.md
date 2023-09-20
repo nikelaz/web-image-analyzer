@@ -4,24 +4,36 @@ This npm script crawls through a JSON sitemap of URLs (`config/sitemap.json`), r
 
 ## Installation
 
-`npm install`
+```bash
+npm install
+```
+
+---
 
 ## Usage
 
 1. Adjust `config/config.js` with your configuration preferences:
 
-`logging` - this will enable/disable logging
-`timeout` - the time between network requests (in milliseconds)
+```javascript
+logging // this will enable/disable logging<br>
+timeout // the time between network requests (in milliseconds)
+```
 
 2. Add your URLs to sitemap.json. Each item in the JSON array should be a url string
 
 3. Run the program with:
 
-`npm run start`
+```bash
+npm run start
+```
+
+---
 
 ## Results
 
 The results will be saved in `results/<unique-filename>.csv`. The program will output the unique file name when the execution finishes.
+
+---
 
 ## Node Version
 
